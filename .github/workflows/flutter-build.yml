@@ -328,7 +328,7 @@ jobs:
 
       - name: Build rustdesk
         env:
-          RENDEZVOUS_SERVER: "1256.co.kr"
+          RENDEZVOUS_SERVER: "1256.co.kr:21116"
           RS_PUB_KEY: "bhqCpBC4r9AzJEqyNiJFpfF8iNEXmZgevhYNOwiVdIQ="
         run: |
           # Windows: build RustDesk
